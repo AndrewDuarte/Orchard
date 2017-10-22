@@ -1,6 +1,7 @@
 # Interface Development Test
 ### Test instructions
 Attached you will find two screenshots representing two content blocks in a page. Complete the following:
+
 * Build the two blocks using modern HTML5 standards.
 * Build a container area to house the two sections; there are no dimensional requirements for this although we're looking for something similar to bootstrap's `.container` class.
 * Use JavaScript to capture all anchor clicks, and `console.log()` the element which has been clicked.
