@@ -24,14 +24,14 @@ gulp.task('html-min', function() {
 
 //Minifying css file task
 gulp.task('css-min',function(){
-	return gulp.src('./app/css/main.css')
+	return gulp.src('./app/main.css')
 	.pipe(minifyCSS())
-	.pipe(gulp.dest('./dist/css'))
+	.pipe(gulp.dest(''))
 });
 
 ////Minifying js file task
 gulp.task('js-min', function () {
     gulp.src('./app/js/myjs.js')
         .pipe(jsmin())
-        .pipe(gulp.dest('./dist/js'));
+        .pipe(gulp.dest('dist/js'));
 });
