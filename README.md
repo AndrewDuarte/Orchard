@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Interface Development Test
 ### Test instructions
 Attached you will find two screenshots representing two content blocks in a page. Complete the following:
@@ -28,3 +29,8 @@ We are looking for your ability to give life to static designs. During that proc
 * *Interface:* Semantic markup and styling.
 * *Git:* Bonus points for submission on a github account.
 * *Quality:* Production-grade.
+=======
+# Orchard Test
+### Part One
+View https://andrewduarte.github.io/Orchard/
+>>>>>>> origin/master
