@@ -11,3 +11,18 @@
 .hover-overlay
 	img
 		margin: 0 auto
+
+.grid-container
+	display: grid
+	grid-template-columns: [col1] 1fr [col2] 1fr [col3] 1fr
+	grid-gap: 9px
+	grid-auto-rows: minmax(293px, auto)
+	margin-right: auto
+	margin-left: auto
+	margin-top: 45px
+	max-width: 1170px
+
+.grid-nested
+	display: grid
+	grid-template-rows: [row1] 1fr [row2] 1fr
+	grid-row-gap: 9px
